@@ -1,0 +1,34 @@
+{
+  "selected_model": "A3",
+  "decision": "accepted",
+  "explanation": "abstain",
+  "reason": [],
+  "candidate_failures": {
+    "A0": [
+      "val_prediction_drift_failed_or_missing"
+    ],
+    "A1": [
+      "val_parity_failed_or_missing"
+    ],
+    "A2": [
+      "val_parity_failed_or_missing"
+    ],
+    "A3": [],
+    "A4": [],
+    "A5": []
+  },
+  "mask_reasons": [
+    "matched_random_fidelity_not_certified"
+  ],
+  "reference_passed": false,
+  "thresholds": {
+    "max_dp": 0.15,
+    "max_eo": 0.15,
+    "max_auc_drop": 0.03,
+    "max_prediction_drift": 0.08,
+    "min_mask_std": 0.0001,
+    "min_auc": 0.5
+  },
+  "dataset": "bail",
+  "seed": 0
+}

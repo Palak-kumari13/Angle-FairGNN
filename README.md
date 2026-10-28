@@ -1,4 +1,4 @@
-# AngleFair-GNN v4.2 — standalone core + optional FRME experiments
+# AngleFair-GNN
 
 **Research software, not proven to outperform published methods.** The default AngleFair track needs no FRME module. The Global Fallback Controller is enabled in `train.py` and chooses checkpoints using validation-only utility, DP/EO and drift. A failed mask is **not reported as a faithful explanation**.
 
